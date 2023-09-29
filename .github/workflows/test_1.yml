@@ -1,0 +1,9 @@
+name: hello-Github Action
+on: 
+  workflow_dispatch:
+jobs:
+  martinVansa-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: new-step
+        run: echo "Hello World Martin!"
