@@ -1,9 +1,9 @@
-name: hello-Github Action
+name: My first Github Action
 on: 
   workflow_dispatch:
 jobs:
   martinVansa-job:
     runs-on: ubuntu-latest
     steps:
-      - name: new-step
+      - name: Echo output
         run: echo "Hello World Martin!"
