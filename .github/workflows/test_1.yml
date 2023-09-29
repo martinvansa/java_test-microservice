@@ -2,8 +2,8 @@ name: My first Github Action
 on: 
   workflow_dispatch:
 jobs:
-  martinVansa-job:
+  Vansa_Martin-job:
     runs-on: ubuntu-latest
     steps:
       - name: Echo output
-        run: echo "Hello World Martin!"
+        run: echo "Hello World Martin Vansa!"
