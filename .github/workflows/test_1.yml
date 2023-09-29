@@ -1,9 +1,10 @@
 name: My first Github Action
 on: 
+  # Rucne
   workflow_dispatch:
 jobs:
   Vansa_Martin-job:
     runs-on: ubuntu-latest
     steps:
       - name: Echo output
-        run: echo "Hello World Martin Vansa!"
+        run: echo "Hello Martin Vansa!"
