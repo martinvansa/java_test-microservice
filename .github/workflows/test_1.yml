@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo output
-        run: echo "Martin Vansa je tu!"
+        run: echo "Martin Vansa je tu 18/12!"
